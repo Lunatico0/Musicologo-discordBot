@@ -43,7 +43,9 @@ const setups = new Enmap({
   dataDir: './welcome',
 })
 
-client.login(config.userToken); // Inicia sesión en el bot con el userToken de config.json
+const token = process.env.DISCORD_MUSICOLOGO_TOKEN;
+
+client.login(token); // Inicia sesión en el bot con el userToken de config.json
 
 // Mensaje de encendido
 client.on('ready', () => {
