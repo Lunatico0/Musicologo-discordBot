@@ -1,0 +1,24 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "node --watch app.js"
+  },
+  "engines": {
+    "node": "20.13.1",
+    "npm": "10.8.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "**24/7 Active discord bot**\r **Discord.js v13**\r **Node.js v16.6.1**\r **Heroku Deployment**\r **Enmap**\r **Comandos \"!\"**\r *some commands:!ping, !setup, !setup-welcome, !disconnect*",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "enmap": "^6.0.2"
+  },
+  "devDependencies": {}
+}
